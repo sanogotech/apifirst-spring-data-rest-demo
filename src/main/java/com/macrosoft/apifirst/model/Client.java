@@ -8,7 +8,12 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
-
+/*
+@NoArgsConstructor
+@AllArgsConstructor
+@Data
+@RequiredArgsConstructor
+*/
 
 @Entity
 public class Client {

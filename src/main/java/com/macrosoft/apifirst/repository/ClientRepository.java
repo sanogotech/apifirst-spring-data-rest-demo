@@ -7,6 +7,15 @@ import com.macrosoft.apifirst.model.Client;
 
 @RepositoryRestResource
 public interface ClientRepository extends JpaRepository<Client, Long> {
+	
+	public Client  findByNom(String nom);
+	public Client  findByPrenom(String prenom);
+	
+	/*
+	@Override
+    @RestResource(exported = false)
+    public void deleteById(Long aLong);
+	*/
 
 }
 
